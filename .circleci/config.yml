@@ -10,7 +10,16 @@ jobs:
          command: dotnet restore ./NetCoreBoilerplateBE/
      - run:
          name: Build App
-         command: dotnet build
+         command: dotnet build ./NetCoreBoilerplateBE/
      - run:
          name: Run Unit Test
-         command: dotnet test --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Api.Test/ --no-build
+     - run:
+         name: Run Unit Test
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Service.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
+     - run:
+         name: Run Unit Test
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Repo.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
+     - run:
+         name: Run Unit Test
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Logger.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
