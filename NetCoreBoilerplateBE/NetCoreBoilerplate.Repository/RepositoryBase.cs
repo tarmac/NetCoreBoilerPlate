@@ -1,5 +1,5 @@
-﻿using NetCoreBoilerplate.Contracts;
-using NetCoreBoilerplate.Entities;
+﻿using NetCoreBoilerplate.Entities;
+using NetCoreBoilerPlate.Repo.Definition;
 using System;
 using System.Collections.Generic;
 using System.Linq;

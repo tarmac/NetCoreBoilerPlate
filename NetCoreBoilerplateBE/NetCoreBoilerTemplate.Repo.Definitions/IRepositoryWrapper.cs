@@ -1,4 +1,4 @@
-﻿namespace NetCoreBoilerplate.Contracts
+﻿namespace NetCoreBoilerPlate.Repo.Definition
 {
     public interface IRepositoryWrapper
     {

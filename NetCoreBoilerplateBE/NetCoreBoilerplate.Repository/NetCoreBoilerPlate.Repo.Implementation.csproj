@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreBoilerplate.Entities\NetCoreBoilerplate.Entities.csproj" />
+    <ProjectReference Include="..\NetCoreBoilerTemplate.Repo.Definitions\NetCoreBoilerPlate.Repo.Definition.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,5 @@
-﻿using NetCoreBoilerplate.Contracts;
-using NetCoreBoilerplate.Entities;
+﻿using NetCoreBoilerplate.Entities;
+using NetCoreBoilerPlate.Repo.Definition;
 
 namespace NetCoreBoilerplate.Repository
 {

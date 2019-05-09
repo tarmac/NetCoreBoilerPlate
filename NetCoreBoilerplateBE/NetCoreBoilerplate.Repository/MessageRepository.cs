@@ -1,6 +1,6 @@
-﻿using NetCoreBoilerplate.Contracts;
-using NetCoreBoilerplate.Entities;
+﻿using NetCoreBoilerplate.Entities;
 using NetCoreBoilerplate.Entities.Models;
+using NetCoreBoilerPlate.Repo.Definition;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,5 +13,7 @@ namespace NetCoreBoilerplate.Repository
             :base(repositoryContext)
         {
         }
+
+       
     }
 }
