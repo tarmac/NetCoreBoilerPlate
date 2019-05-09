@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace NetCoreBoilerplate.Contracts
+namespace NetCoreBoilerPlate.Repo.Definition
 {
     public interface IRepositoryBase<T>
     {

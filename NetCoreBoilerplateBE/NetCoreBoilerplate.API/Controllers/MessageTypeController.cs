@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreBoilerplate.Contracts;
 using NetCoreBoilerplate.Entities.Models;
+using NetCoreBoilerPlate.Repo.Definition;
 
 namespace NetCoreBoilerplate.API.Controllers
 {

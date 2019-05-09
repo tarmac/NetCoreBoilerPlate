@@ -1,7 +1,7 @@
 ﻿using NetCoreBoilerplate.Entities.Models;
 using System.Collections.Generic;
 
-namespace NetCoreBoilerplate.Contracts
+namespace NetCoreBoilerPlate.Repo.Definition
 {
     public interface IMessageTypeRepository : IRepositoryBase<MessageType>
     {

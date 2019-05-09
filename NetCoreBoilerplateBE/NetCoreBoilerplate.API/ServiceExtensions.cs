@@ -5,6 +5,7 @@ using NetCoreBoilerplate.Contracts;
 using NetCoreBoilerplate.Entities;
 using NetCoreBoilerplate.LoggerService;
 using NetCoreBoilerplate.Repository;
+using NetCoreBoilerPlate.Repo.Definition;
 
 namespace NetCoreBoilerplate.API
 {

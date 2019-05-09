@@ -1,6 +1,6 @@
-﻿using NetCoreBoilerplate.Contracts;
-using NetCoreBoilerplate.Entities;
+﻿using NetCoreBoilerplate.Entities;
 using NetCoreBoilerplate.Entities.Models;
+using NetCoreBoilerPlate.Repo.Definition;
 
 namespace NetCoreBoilerplate.Repository
 {

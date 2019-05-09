@@ -1,6 +1,6 @@
 ﻿using NetCoreBoilerplate.Entities.Models;
 
-namespace NetCoreBoilerplate.Contracts
+namespace NetCoreBoilerPlate.Repo.Definition
 {
     public interface IUserRepository : IRepositoryBase<User>
     {
