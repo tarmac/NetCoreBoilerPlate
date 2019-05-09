@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreBoilerPlate.API</name>
+    </assembly>
+    <members>
+        <member name="M:NetCoreBoilerplate.API.Controllers.MessageController.Get">
+            <summary>
+            The get messages controller
+            </summary>
+            <remarks>
+            A remakr placeholder, extra info
+            </remarks>
+            <returns>returns the messages</returns>
+        </member>
+        <member name="M:NetCoreBoilerplate.API.Controllers.MessageController.Get(System.Int32)">
+            <summary>
+            The get message controller
+            </summary>
+            <remarks>
+            A remakr placeholder, extra info
+            </remarks>
+            <param name="id">the id of message</param>
+            <returns>it returns the message</returns>
+        </member>
+        <member name="M:NetCoreBoilerplate.API.Controllers.MessageController.Post(System.String)">
+            <summary>
+            The Post message Controller
+            </summary>
+            <remarks>
+            A remakr placeholder, extra info
+            </remarks>
+            <param name="value"></param>
+        </member>
+        <member name="M:NetCoreBoilerplate.API.Controllers.MessageController.Put(System.Int32,System.String)">
+            <summary>
+            The Put message controller
+            </summary>
+            <remarks>
+            A remakr placeholder, extra info
+            </remarks>
+            <param name="id">the id</param>
+            <param name="value">the body value</param>
+        </member>
+        <member name="M:NetCoreBoilerplate.API.Controllers.MessageController.Delete(System.Int32)">
+            <summary>
+            The Delete message controller
+            </summary>
+            <remarks>
+            A remakr placeholder, extra info
+            </remarks>
+            <param name="id">the id</param>
+        </member>
+    </members>
+</doc>
