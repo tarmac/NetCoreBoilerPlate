@@ -12,14 +12,14 @@ jobs:
          name: Build App
          command: dotnet build ./NetCoreBoilerplateBE/
      - run:
-         name: Run Unit Test
+         name: Run Api Unit Test 
          command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Api.Test/ --no-build
      - run:
-         name: Run Unit Test
+         name: Run Service Unit Test
          command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Service.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
      - run:
-         name: Run Unit Test
+         name: Run Repository Unit Test
          command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Repo.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
      - run:
-         name: Run Unit Test
+         name: Run Logger Unit Test
          command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Logger.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
