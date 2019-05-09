@@ -13,13 +13,13 @@ jobs:
          command: dotnet build ./NetCoreBoilerplateBE/
      - run:
          name: Run Api Unit Test 
-         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Api.Test/ --no-build
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Api.Test/ --no-build --logger "trx;LogFileName=../../../NetCoreBoilerplateBE_apiTest-output.xml"
      - run:
          name: Run Service Unit Test
-         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Service.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Service.Test/ --no-build --logger "trx;LogFileName=../../../NetCoreBoilerplateBE_serviceTest-output.xml"
      - run:
          name: Run Repository Unit Test
-         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Repo.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Repo.Test/ --no-build --logger "trx;LogFileName=../../../NetCoreBoilerplateBE_repositoryTest-output.xml"
      - run:
          name: Run Logger Unit Test
-         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Logger.Test/ --no-build --logger "trx;LogFileName=../../../xunit-output.xml"
+         command: dotnet test ./NetCoreBoilerplateBE/NetCoreBoilerPlate.Logger.Test/ --no-build --logger "trx;LogFileName=../../../NetCoreBoilerplateBE_loggerTest-output.xml"
